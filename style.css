@@ -1,0 +1,165 @@
+/*********** GLOBAL AREA START HERE ************/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+/*********** GLOBAL AREA END HERE ************/
+
+
+/*********** HEADER AREA START HERE ************/
+.navbar{
+    box-shadow:1px 1px 2px green;
+    background:#fff;
+    opacity:0.8;
+}
+.nav-item{
+    padding-right:20px;
+}
+.nav-item:nth-child(4){
+    padding-right:0 !important;
+}
+.nav-item .nav-link{
+    color:#252525 !important;
+    font-size:1.4rem;
+}
+.nav-link:hover{
+    color:green !important;
+}
+/*********** HEADER AREA END HERE ************/
+
+
+
+/*********** SHOWCASE AREA START HERE ************/
+#showcase{
+    background:url(img/mountains.jpg);
+    min-height:500px;
+    padding-top:75px;
+}
+.showcase-overlay{
+    background:#3292A6;
+    min-height:500px;
+}
+@media(max-width:1199px){
+    h1{
+        font-size:20px;
+    }
+}
+@media(max-width:991px){
+    h1{
+        font-size:60px !important;
+    }
+    #showcase img{
+        margin-top:60px;
+    }
+}
+/*********** SHOWCASE AREA END HERE ************/
+
+
+
+
+/*********** SUBSCRIBE AREA START HERE **********/
+#subscribe{
+    background:#252525;
+    padding:40px 0;
+
+}
+/*********** SUBSCRIBE AREA END HERE ************/
+
+
+
+
+
+/*********** BOX AREA START HERE ************/
+#box{
+    padding:5% 0;
+    background: #70e1f5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+/*********** BOX AREA END HERE ************/
+
+
+/*********** BOOK AREA START HERE ************/
+#book{
+    padding:4% 0;
+    background:#eee;
+}
+#book h2{
+    width:600px;
+    margin:auto;
+    border-radius:5px;
+    box-shadow:1px 1px 2px gray;
+    padding:10px;
+    color:#6BB0B6;
+
+}
+/*********** BOOK AREA END HERE ************/
+
+
+/*********** AUTHOR AREA START HERE ************/
+#author{
+    padding:5% 0;
+    background: #616161;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9bc5c3, #616161);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9bc5c3, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.card{
+    transition:1s;
+
+}
+.card img{
+    margin-top:-70px;
+}
+#author .card:hover{
+    background:#6BB0B6;
+    color:white;
+}
+#author .card:hover .fa{
+    color:white;
+}
+#author h2{
+    width:600px;
+    margin:auto;
+    border-radius:5px;
+    box-shadow:1px 1px 2px gray;
+    padding:10px;
+}
+/*********** AUTHOR AREA END HERE ************/
+
+
+
+
+/*********** CONTACT AREA START HERE ************/
+#contact{
+    padding:4% 0;
+    background:#eee;
+}
+#contact input{
+    padding:20px 10px;
+}
+#contact a{
+    background:#3292A6;
+}
+#contact h2{
+    color:#6BB0B6;
+}
+#contact img{
+    box-shadow:2px 2px 5px #6BB0B6;
+    border-radius:50%;
+}
+/*********** CONTACT AREA END HERE ************/
+
+
+
+
+/*********** FOOTER AREA START HERE ************/
+#footer{
+    padding:4% 0;
+    background:#3292A6;
+}
+/*********** FOOTER AREA END HERE ************/
